@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Contact Us - Rosemary Boutique</title>
+	<meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">	
+</head>
+<body>
+	<header>
+		<img src="logo.png" alt="boutique">
+		<h1>Contact Us</h1>
+		<nav>
+			<div id = "skip">
+				<a href ="#maincontent">skip to main content</a>
+			</div>
+			<ul>
+				<li><a href ="./index.html">about us</a></li>
+				<li><a href ="./itemsold.html">item sold</a></li>
+				<li><a href ="./form.html">purchase form</a></li>
+				<li><a href ="./recomendations.html">customer recomendations</a></li>
+				<li><a href ="./video.html">video</a></li>
+				<li><a href ="./contact.html">contact us</a></li>
+			</ul>	
+		</nav>
+	</header>  
+
+	<main id = "maincontent">
+		 <a href="./aboutus.html">about us</a>
+		  <a href="./form.html">Purchase Form</a>
+		<p>  get in touch with us on the contact details below<br> 
+		<img class="image1" src ="call.jpg" width ="20" height ="20" alt ="phone call"> : +4474585350<br>
+		Email address: rosemaryboutique@co.uk<br>
+		<img class="image" src ="twitter.jpg" width ="20" height ="20" alt ="twitter"> @rosemaryboutique<br>
+		<img class="image1" src ="instagram.jpg" width ="20" height ="20" alt ="instagram"> rosemary_boutique<br>
+		</p>
+	 
+
+
+
+	
+	</main>
+	<footer>
+		<p>
+			&copy; Funmi Clothing 2021
+		</p>
+	</footer>
+</body>
+</html>

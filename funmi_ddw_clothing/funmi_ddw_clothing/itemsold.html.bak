@@ -1,0 +1,66 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Item Sold - Rosemary Boutique</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+	<header>
+		<img src="logo.png" alt="boutique">
+		<h1>Items in store</h1>
+		<nav>
+			<div id="skip">
+				<a href="#maincontent">skip to main content</a>
+			</div>
+			<ul>
+				<li><a href="./index.html">about us</a></li>
+				<li><a href="./itemsold.html">item sold</a></li>
+				<li><a href="./form.html">purchase form</a></li>
+				<li><a href="./recomendations.html">customer recomendations</a></li>
+				<li><a href="./video.html">video</a></li>
+				<li><a href="./contact.html">contact us</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main id="maincontent">
+		<p>Here are list of item sold below</p>
+		<ol>
+			<li><img src="Hoodie.webp" alt="hoodie">£35.00</li>
+			<li><img src="bluehoodie.webp" alt="hoodie">£45.00</li>
+			<li><img src="jogger-set.webp" alt="jogger set">£31.00</li>
+			<li><img src="Shoes.webp" alt="shoes">£24.00</li>
+			<li><img src="Trainers.webp" alt="trainers">£24.00</li>
+			<li><img src="Men's-Tee.webp" alt="Men's tee">£40.00</li>
+			<li><img src="blackhat.webp" alt="black hat">£20.00</li>
+			<li><img src="bluehat.jpg" alt="Blue hat">£20.00</li>
+			<li><img src="hat.webp" alt="Hat">£20.00</li>
+			<li><img src="shoe.webp" alt="shoe">£70.00</li>
+			<li><img src="TrainingTee.webp" alt="training">£40.00</li>
+			<li><img src="whitehat.jpg" alt="white hat">£20.00</li>
+
+		</ol>
+<?php
+require "member.php";
+foreach ( $rows as $row ) {
+    echo "<tr><td>";
+    echo($row['productName']);
+    echo("</td><td>");
+    echo '<img src="' . $row['productImage'] . '" alt="' . $row['productName'] . '"width="200" height="200">';
+    echo("</td></tr>");
+}
+?>
+	</main>
+	<footer>
+		<p>
+			&copy; Funmi Clothing 2021
+		</p>
+	</footer>
+</body>
+
+</html>

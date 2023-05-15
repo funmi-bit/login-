@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Customer Recomendations - Rosemary Boutique</</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+	<header>
+	    <img src="logo.png" alt="boutique">
+		<h1>Customer Recomendations</h1>
+		<nav>
+			<div id = "skip">
+				<a href ="#maincontent">skip to main content</a>
+			</div>
+			<ul>
+				<li><a href ="./index.html">about us</a></li>
+				<li><a href ="./itemsold.html">item sold</a></li>
+				<li><a href ="./form.html">contact</a></li>
+				<li><a href ="./recomendations.html">customer recomendations</a></li>
+				<li><a href ="./video.html">video</a></li>
+			</ul>
+		</nav>
+	</header>
+	
+	<main id = "maincontent">
+		<p>
+		
+Funmi clothing is one of best and well known clothing in the market.it's very affordable. our custormer can rely on us to give the best quality fashion wear. funmi clothing make shopping fun, accessible and inspirational. we have different kinds of nice clothes, bags, shoes and other accessories. you can find clothes for both men and women with variety of sizes and you can easily find the style that works best for you in funmi clothing store. every new customer get 20% off on their first shopping at our store. we are also available online, it's safe to shop and our delivery is free for every customer. we try our best to make sure customer are happy with their shopping, but if a coustomer isn't happy with their shopping, they can return at any time with their tickets and their money will be refunded back to them. every costomer that recommend us to others will get extra 30% off on their shopping.
+		
+		</p>
+	
+	</main>
+
+	<footer>
+		<p>
+			&copy; Funmi Clothing 2021
+		</p>
+	</footer>
+</body>
+</html>	
+	

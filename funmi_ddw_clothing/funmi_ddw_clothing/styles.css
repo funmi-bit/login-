@@ -1,0 +1,45 @@
+ul{
+	list-style: none;
+
+}
+ ol img {
+	 max-width: 300px;
+ }
+
+	
+li{
+	display: inline;
+}
+
+li a{
+	display: inline-block;
+	font-weight:bold;
+	color: #3333ff; 
+	text-decoration: none;
+	width: 200px;
+	padding: 2px;
+	border: 1px dashed gray;
+	background-color: #ffff80;
+
+	
+}
+
+li img {
+	background-image:#ffb3b3;
+}
+
+body{
+	background-color:white;
+}
+
+
+
+.image{
+	border-radius: 20%;
+}
+.image1{
+	border-radius: 50%;
+}  
+.login{
+	float: right;
+}

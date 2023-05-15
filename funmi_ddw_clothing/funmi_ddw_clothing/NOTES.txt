@@ -1,0 +1,24 @@
+
+
+CREATE DATABASE misc;
+
+CREATE USER 'dave'@'localhost' IDENTIFIED BY 'qwerty';
+CREATE USER 'dave''127.0.0.1' IDENTIFIED BY 'qwerty';
+
+GRANT ALL ON misc.* TO 'bobby'@'localhost';
+GRANT ALL ON misc.* TO 'bobby'@'127.0.0.1';
+
+
+USE misc; 
+
+CREATE TABLE users (
+   user_id INTEGER NOT NULL
+     AUTO_INCREMENT PRIMARY KEY,
+   name VARCHAR(128),
+   email VARCHAR(128),
+   password VARCHAR(128),
+   INDEX(email)
+) ENGINE=InnoDB CHARSET=utf8;
+
+INSERT INTO users (name,email,password) VALUES ('Andy','andy@andy.com','abc12345');
+INSERT INTO users (name,email,password) VALUES ('Glenn','gg@bbc.co.uk','glen123');
